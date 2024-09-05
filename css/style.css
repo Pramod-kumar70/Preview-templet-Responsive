@@ -1,0 +1,100 @@
+.Custom {
+    background-color: wheat;
+}
+
+.Custom-Color {
+    background-color: rgba(0, 128, 128, 0.79);
+
+}
+
+.Media-sm button {
+    box-shadow: 10px 20px 40px rgb(0, 0, 0);
+}
+
+.checked {
+    color: orange;
+
+}
+
+.fonts i{
+    text-align: center;
+    font-size: 40px;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 20px 20px 30px black;
+    margin: 10px;
+}
+
+.Colors button {
+    border-radius: 50%;
+    padding: 17px;
+    border: none;
+    margin: 8px;
+    box-shadow: 20px 20px 30px black;
+}
+
+.Colors {
+    background-color: white;
+    border-radius: 10px;
+    padding-bottom: 10px;
+}
+
+.Colors input {
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background: transparent;
+    margin: 4px;
+    box-shadow: 20px 20px 30px black;
+}
+.Button-Custom button{
+    box-shadow: 20px 20px 30px black;
+}
+
+.Colors input:hover {
+    transform: scale(1.2);
+    
+}
+
+.Colors button:hover {
+    transform: scale(1.0);
+    font-size: 20px;
+    background-color: slateblue;
+}
+
+.Add-P2 {
+    background-color: slategrey;
+
+}
+
+@media (min-width: 300px) and (max-width:700px) {
+
+    .Media-sm h1,
+    p {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .Media-sm button {
+        margin-left: 80px;
+        margin-bottom: 70px;
+        margin-top: 30px;
+
+    }
+
+    .Colors {
+        text-align: center;
+
+    }
+
+}
+
+@media (min-width:1200px) {
+    .Custom h1 {
+        font-size: 45px;
+        font-weight: 500;
+
+    }
+
+}
