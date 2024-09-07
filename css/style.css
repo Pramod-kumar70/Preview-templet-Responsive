@@ -1,16 +1,35 @@
+.MyStyle{
+    height: 700px;
+    width: 700px;
+    background-color: steelblue;
+    border-radius: 20px;
+    position: fixed;
+    left: 0;
+    top: -30px;
+    transform: rotate(45deg);
+    z-index: -1;
+    box-shadow: 20px 20px 60px rgb(0, 0, 0);
+}
+
+
+
 .Custom {
     background-color: wheat;
 }
 
 .Custom-Color {
-    background-color: rgba(0, 128, 128, 0.79);
+    background-color: rgba(15, 196, 216, 0.79);
 
 }
 
 .Media-sm button {
+    border: none;
     box-shadow: 10px 20px 40px rgb(0, 0, 0);
+   background-color: rgba(198, 15, 15, 0.842);
+    color: rgb(0, 0, 0);
+    font-weight: 600;
+  
 }
-
 .checked {
     color: orange;
 
@@ -24,6 +43,9 @@
     border-radius: 50%;
     box-shadow: 20px 20px 30px black;
     margin: 10px;
+}
+#Facebook:hover{
+    background-color: rgba(124, 124, 210, 0.837);
 }
 
 .Colors button {
@@ -74,7 +96,12 @@
     p {
         text-align: center;
         padding: 10px;
+        font-weight: 700;
     }
+.MyStyle{
+    height: 400px;
+    width: 400px;
+}
 
     .Media-sm button {
         margin-left: 80px;
@@ -95,6 +122,18 @@
         font-size: 45px;
         font-weight: 500;
 
+    }
+    .Media-sm p{
+        font-size: 20px;
+        font-weight: 700;
+        font-family: monospace;
+    }
+    .Media-sm h1{
+        font-size: 50px;
+        font-weight: 600;
+        font-variant: inherit;
+       color: black;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 
 }
