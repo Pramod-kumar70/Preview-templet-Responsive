@@ -8,7 +8,7 @@
     top: -30px;
     transform: rotate(45deg);
     z-index: -1;
-    box-shadow: 20px 20px 60px rgba(0, 0, 0, 0.529);
+    box-shadow: 10px 10px 60px rgba(0, 0, 0, 0.529);
 }
 
 
@@ -24,7 +24,7 @@
 
 .Media-sm button {
     border: none;
-    box-shadow: 10px 20px 40px rgb(0, 0, 0);
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
    background-color: rgba(198, 15, 15, 0.842);
     color: rgb(0, 0, 0);
     font-weight: 600;
@@ -46,7 +46,7 @@
     background-color: aliceblue;
     padding: 10px;
     border-radius: 50%;
-    box-shadow: 20px 20px 30px black;
+    box-shadow: 10px 10px 20px black;
     margin: 10px;
 }
 #Facebook:hover{
@@ -60,7 +60,7 @@
     padding: 17px;
     border: none;
     margin: 8px;
-    box-shadow: 20px 20px 30px black;
+    box-shadow: 10px 10px 30px black;
 }
 
 .Colors {
@@ -75,10 +75,10 @@
     border-radius: 10px;
     background: transparent;
     margin: 4px;
-    box-shadow: 20px 20px 30px black;
+    box-shadow: 5px 5px 10px black;
 }
 .Button-Custom button{
-    box-shadow: 20px 20px 30px black;
+    box-shadow: 10px 10px 30px black;
 }
 
 .Colors input:hover {
