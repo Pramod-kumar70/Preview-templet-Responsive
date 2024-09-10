@@ -11,14 +11,17 @@
     box-shadow: 10px 10px 60px rgba(0, 0, 0, 0.529);
 }
 
-
+.BoxForFontStyle h1{
+    font-weight: 700;
+    color: white;
+}
 
 .Custom {
-    background-color: rgba(213, 180, 120, 0.974);
+    background-color: rgba(199, 158, 82, 0.905);
 }
 
 .Custom-Color {
-    background-color: rgba(15, 196, 216, 0.79);
+    background-color: rgb(0, 0, 0);
 
 }
 
@@ -26,13 +29,13 @@
     border: none;
     box-shadow: 5px 5px 10px rgb(0, 0, 0);
    background-color: rgba(198, 15, 15, 0.842);
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-weight: 600;
   
 }
 .Media-sm button:hover{
     background-color: yellow;
-    filter: drop-shadow(1px 1px 20px yellow);
+    filter: drop-shadow(1px 1px 10px rgba(255, 255, 0, 0.829));
     color: black;
 }
 .checked {
@@ -43,15 +46,15 @@
 .fonts i{
     text-align: center;
     font-size: 40px;
-    background-color: aliceblue;
+    background-color: rgb(255, 255, 255);
     padding: 10px;
     border-radius: 50%;
     box-shadow: 10px 10px 20px black;
     margin: 10px;
 }
 #Facebook:hover{
-    background-color: rgb(0, 0, 255);
-    filter: drop-shadow(1px 1px 20px rgb(0, 0, 255));
+    background-color: rgba(0, 0, 255, 0.421);
+ 
    
 }
 
@@ -93,7 +96,7 @@
 }
 
 .Add-P2 {
-    background-color: rgba(112, 128, 144, 0.955);
+    background-color: rgba(112, 128, 144, 0.997);
 
 }
 
@@ -106,8 +109,9 @@
         font-weight: 700;
     }
 .MyStyle{
-    height: 400px;
-    width: 400px;
+    height: 500px;
+    width: 500px;
+    margin-top: -70px;
 }
 
     .Media-sm button {
@@ -133,14 +137,14 @@
     .Media-sm p{
         font-size: 20px;
         font-weight: 700;
-        font-family: monospace;
+       
     }
     .Media-sm h1{
         font-size: 50px;
         font-weight: 600;
         font-variant: inherit;
        color: black;
-       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      
     }
 
 }
