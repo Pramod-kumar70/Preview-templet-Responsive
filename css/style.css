@@ -1,3 +1,6 @@
+
+/* This Class is used in html line no:-> 34 */
+
 .MyStyle{
     height: 700px;
     width: 700px;
@@ -8,40 +11,72 @@
     top: -30px;
     transform: rotate(45deg);
     z-index: -1;
-    box-shadow: 10px 10px 60px rgba(0, 0, 0, 0.529);
+    box-shadow: 10px 10px 60px rgba(0, 0, 0, 0.321);
 }
+
+
+
+/* HTML line 402-410 */
+
+.Img-Transform img:hover{
+    transform: scale(1.1);
+    filter: drop-shadow(1px 1px 20px rgb(0, 0, 0));
+}
+
+
+
+/* HTML line no:-> 67 ,133 ,201 ,217 ,285 ,386 , 429*/
 
 .BoxForFontStyle h1{
     font-weight: 700;
     color: white;
 }
 
+
+
+/* HTML line no:-> 132 ,216*/
+
 .Custom {
     background-color: rgba(199, 158, 82, 0.905);
 }
+
+
+
+/* HTML line :-> 324 , */
 
 .Custom-Color {
     background-color: rgb(0, 0, 0);
 
 }
 
+
+
+/* HTML line no:-> 43 ,200 , 429*/
+
 .Media-sm button {
     border: none;
-    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.37);
    background-color: rgba(198, 15, 15, 0.842);
     color: rgb(255, 255, 255);
     font-weight: 600;
   
 }
+
 .Media-sm button:hover{
     background-color: yellow;
-    filter: drop-shadow(1px 1px 10px rgba(255, 255, 0, 0.829));
+    filter: drop-shadow(1px 1px 10px rgba(255, 255, 0, 0.427));
     color: black;
 }
+
 .checked {
+    /* Color of rating */
     color: orange;
 
 }
+
+
+
+/* HTML line :->293,300,304 ,439*/
 
 .fonts i{
     text-align: center;
@@ -49,28 +84,42 @@
     background-color: rgb(255, 255, 255);
     padding: 10px;
     border-radius: 50%;
-    box-shadow: 10px 10px 20px black;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.348);
     margin: 10px;
 }
+
 #Facebook:hover{
     background-color: rgba(0, 0, 255, 0.421);
  
    
 }
 
-.Colors button {
-    border-radius: 50%;
-    padding: 17px;
-    border: none;
-    margin: 8px;
-    box-shadow: 10px 10px 30px black;
-}
+
+
+/* HTML line no:-> 139 ,224, 239 ,252,265*/
+
 
 .Colors {
     background-color: white;
     border-radius: 10px;
     padding-bottom: 10px;
 }
+
+
+.Colors button {
+    border-radius: 50%;
+    padding: 17px;
+    border: none;
+    margin: 8px;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.321);
+}
+
+.Colors button:hover {
+    transform: scale(1.0);
+    font-size: 20px;
+    background-color: slateblue;
+}
+
 
 .Colors input {
     padding: 10px;
@@ -80,20 +129,24 @@
     margin: 4px;
     box-shadow: 5px 5px 10px black;
 }
-.Button-Custom button{
-    box-shadow: 10px 10px 30px black;
-}
 
 .Colors input:hover {
     transform: scale(1.2);
     
 }
 
-.Colors button:hover {
-    transform: scale(1.0);
-    font-size: 20px;
-    background-color: slateblue;
+
+/* Html line  313 , 415 */
+
+.Button-Custom button{
+    box-shadow: 10px 10px 30px black;
 }
+
+
+
+
+
+/* Html line :-> 427 */
 
 .Add-P2 {
     background-color: rgba(112, 128, 144, 0.997);
@@ -108,11 +161,11 @@
         padding: 10px;
         font-weight: 700;
     }
-.MyStyle{
+    .MyStyle{
     height: 500px;
     width: 500px;
     margin-top: -70px;
-}
+    }
 
     .Media-sm button {
         margin-left: 80px;
