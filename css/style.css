@@ -14,7 +14,16 @@
     box-shadow: 10px 10px 60px rgba(0, 0, 0, 0.321);
 }
 
-
+.Shop-Now-btn button{
+    background-color: #E56639;
+    color: white;
+    border: none;
+}
+.Shop-Now-btn button:hover{
+    background-color: transparent;
+    color: #E56639;
+    border: 2px solid #E56639;
+}
 
 /* HTML line 402-410 */
 
@@ -63,7 +72,17 @@
     z-index: 2;
   
 }
+.Media-sm1 button{
+    background-color: #E56639;
+    font-weight: 600;
+    color: white;
 
+}
+.Media-sm1 button:hover{
+    background-color: yellow;
+    filter: drop-shadow(1px 1px 10px rgba(255, 255, 0, 0.427));
+    color: black;
+}
 .Media-sm button:hover{
     background-color: yellow;
     filter: drop-shadow(1px 1px 10px rgba(255, 255, 0, 0.427));
@@ -90,11 +109,8 @@
     margin: 10px;
 }
 
-#Facebook:hover{
-    background-color: rgba(0, 0, 255, 0.421);
- 
    
-}
+
 
 
 
@@ -110,16 +126,19 @@
 
 .Colors button {
     border-radius: 50%;
-    padding: 15px;
+    padding: 12px;
     border: none;
     margin: 8px;
-    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.321);
+    color: white;
+    background-color: #E56639;
+   
 }
 
 .Colors button:hover {
-    transform: scaleX(1.03);
-    font-size: 20px;
-    background-color: slateblue;
+    
+    color: #E56639;
+    border: 1px solid #E56639;
+    background-color: transparent;
 }
 
 
@@ -130,13 +149,14 @@
     border-radius: 6px;
     background: transparent;
     margin: 4px;
-    box-shadow: 5px 5px 10px black;
+    box-shadow: 1px 1px 10px black;
 }
-
+ 
 .Colors input:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     
-}
+    
+} 
 
 
 /* Html line  313 , 415 */
@@ -182,6 +202,9 @@
         text-align: center;
 
     }
+    .Modify{
+        margin-left: 50px;
+    }
 
 }
 
@@ -205,3 +228,262 @@
     }
 
 }
+
+
+.background-Img{
+    background-image: url('/image/insta-8.webp');
+  
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+
+
+
+#product{
+    width: 300px;
+    height: 300px;
+    background: url(/image/insta-1.webp);
+    background-size: 100%; /* Background starts at normal size */
+    background-position: center;
+    transition: background-size .25s ease; /* Smooth transition for zoom-out effect */
+}
+ 
+#product:hover .overlay {
+    opacity: 0.9;
+  }
+
+  #product:hover .overlay {
+    opacity: 0.9;
+  }
+   
+  #product:hover {
+    background-size: 120%; /* Zoom out effect (image appears to zoom away) */
+  }
+  
+  #product:hover {
+    background-size: 120%; /* Zoom out effect (image appears to zoom away) */
+  }
+#product2{
+    width: 300px;
+    height: 300px;
+    background: url(/image/insta-2.webp);
+    background-size: 100%; /* Background starts at normal size */
+    background-position: center;
+    transition: background-size .25s ease; /* Smooth transition for zoom-out effect */
+}
+
+#product2:hover .overlay {
+    opacity: 0.9;
+  }
+
+  #product2:hover .overlay {
+    opacity: 0.9;
+  }
+   
+  #product2:hover {
+    background-size: 120%; /* Zoom out effect (image appears to zoom away) */
+  }
+  
+  #product2:hover {
+    background-size: 120%; /* Zoom out effect (image appears to zoom away) */
+  }
+#product3{
+    width: 300px;
+    height: 300px;
+    background: url(/image/insta-3.webp);
+    background-size: 100%; /* Background starts at normal size */
+    background-position: center;
+    transition: background-size .25s ease; /* Smooth transition for zoom-out effect */
+}
+
+#product3:hover .overlay {
+    opacity: 0.9;
+  }
+
+  #product3:hover .overlay {
+    opacity: 0.9;
+  }
+   
+  #product3:hover {
+    background-size: 120%; /* Zoom out effect (image appears to zoom away) */
+  }
+  
+  #product3:hover {
+    background-size: 120%; /* Zoom out effect (image appears to zoom away) */
+  }
+#product4{
+    width: 300px;
+    height: 300px;
+    background: url(/image/insta-4.webp);
+    background-size: 100%; /* Background starts at normal size */
+    background-position: center;
+    transition: background-size .25s ease; /* Smooth transition for zoom-out effect */
+}
+
+#product4:hover .overlay {
+    opacity: 0.9;
+  }
+
+  #product4:hover .overlay {
+    opacity: 0.9;
+  }
+   
+  #product4:hover {
+    background-size: 120%; /* Zoom out effect (image appears to zoom away) */
+  }
+  
+  #product4:hover {
+    background-size: 120%; /* Zoom out effect (image appears to zoom away) */
+  }
+#product5{
+    width: 300px;
+    height: 300px;
+    background: url(/image/insta-5.webp);
+    background-size: 100%; /* Background starts at normal size */
+    background-position: center;
+    transition: background-size .25s ease; /* Smooth transition for zoom-out effect */
+}
+
+#product5:hover .overlay {
+    opacity: 0.9;
+  }
+
+  #product5:hover .overlay {
+    opacity: 0.9;
+  }
+   
+  #product5:hover {
+    background-size: 120%; /* Zoom out effect (image appears to zoom away) */
+  }
+  
+  #product5:hover {
+    background-size: 120%; /* Zoom out effect (image appears to zoom away) */
+  }
+#product6{
+    width: 300px;
+    height: 300px;
+    background: url(/image/insta-6.webp);
+    background-size: 100%; /* Background starts at normal size */
+    background-position: center;
+    transition: background-size .25s ease; /* Smooth transition for zoom-out effect */
+}
+
+#product6:hover .overlay {
+    opacity: 0.9;
+  }
+
+  #product6:hover .overlay {
+    opacity: 0.9;
+  }
+   
+  #product6:hover {
+    background-size: 120%; /* Zoom out effect (image appears to zoom away) */
+  }
+  
+  #product6:hover {
+    background-size: 120%; /* Zoom out effect (image appears to zoom away) */
+  }
+#product7{
+    width: 300px;
+    height: 300px;
+    background: url(/image/insta-7.webp);
+    background-size: 100%; /* Background starts at normal size */
+    background-position: center;
+    transition: background-size .25s ease; /* Smooth transition for zoom-out effect */
+}
+
+#product7:hover .overlay {
+    opacity: 0.9;
+  }
+
+  #product7:hover .overlay {
+    opacity: 0.9;
+  }
+   
+  #product7:hover {
+    background-size: 110%; /* Zoom out effect (image appears to zoom away) */
+  }
+  
+  #product7:hover {
+    background-size: 120%; /* Zoom out effect (image appears to zoom away) */
+  }
+#product8{
+    width: 300px;
+    height: 300px;
+    background: url(/image/insta-8.webp);
+    background-size: 100%; /* Background starts at normal size */
+    background-position: center;
+    transition: background-size .25s ease; /* Smooth transition for zoom-out effect */
+}
+
+
+#product8:hover .overlay {
+    opacity: 0.9;
+  }
+
+  #product8:hover .overlay {
+    opacity: 0.9;
+  }
+   
+  #product8:hover {
+    background-size: 105%; /* Zoom out effect (image appears to zoom away) */
+  }
+  
+  #product8:hover {
+    background-size: 105%; /* Zoom out effect (image appears to zoom away) */
+  }
+
+
+
+
+
+
+
+
+
+
+#products {
+    width: 300px;
+    height: 300px;
+    background: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSB7bGUOYSbgLWfoMeoBdSuWbzKB4c9fkYixt42qh7sjAnqqCublQ);
+    background-size: 100%; /* Background starts at normal size */
+    background-position: center;
+    transition: background-size .25s ease; /* Smooth transition for zoom-out effect */
+  }
+   
+  .overlay {
+    background-color: #152328aa;
+    text-align: center;
+    padding: 45% 0;
+    opacity: 0;
+    transition: opacity .25s ease;
+  }
+   
+  #products:hover .overlay {
+    opacity: 0.9;
+  }
+  #product:hover .overlay {
+    opacity: 0.9;
+  }
+   
+  #products:hover {
+    background-size: 120%; /* Zoom out effect (image appears to zoom away) */
+  }
+  
+  #product:hover {
+    background-size: 120%; /* Zoom out effect (image appears to zoom away) */
+  }
+   
+  .read-article {
+    font-family: HelveticaNeueLTStd;
+    font-weight: 400;
+    font-size: .85rem;
+    text-transform: uppercase;
+    padding-bottom: .25rem;
+    color: white;
+  }
+  
+  
+  
