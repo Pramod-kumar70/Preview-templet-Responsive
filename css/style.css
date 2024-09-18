@@ -230,14 +230,6 @@
 }
 
 
-.background-Img{
-    background-image: url('/image/insta-8.webp');
-  
-    background-repeat: no-repeat;
-    background-size: cover;
-    
-}
-
 
 
 
@@ -249,22 +241,26 @@
     background-position: center;
     transition: background-size .25s ease; /* Smooth transition for zoom-out effect */
 }
- 
+  #product .overlay{
+  background-color: rgb(61, 61, 61,0.523);
+  text-align: center;
+  padding: 41% 0;
+  opacity: 0;
+  transition: opacity .25s esae;
+ }
 #product:hover .overlay {
     opacity: 0.9;
   }
 
-  #product:hover .overlay {
-    opacity: 0.9;
-  }
    
   #product:hover {
-    background-size: 120%; /* Zoom out effect (image appears to zoom away) */
+    background-size: 110%; /* Zoom out effect (image appears to zoom away) */
   }
   
-  #product:hover {
-    background-size: 120%; /* Zoom out effect (image appears to zoom away) */
-  }
+ 
+
+
+
 #product2{
     width: 300px;
     height: 300px;
@@ -273,22 +269,23 @@
     background-position: center;
     transition: background-size .25s ease; /* Smooth transition for zoom-out effect */
 }
-
+#product2 .overlay{
+  background-color: rgb(61, 61, 61,0.523);
+  text-align: center;
+  padding: 41% 0;
+  opacity: 0;
+  transition: opacity .25s esae;
+ }
 #product2:hover .overlay {
     opacity: 0.9;
   }
-
-  #product2:hover .overlay {
-    opacity: 0.9;
-  }
-   
+ 
   #product2:hover {
     background-size: 120%; /* Zoom out effect (image appears to zoom away) */
   }
   
-  #product2:hover {
-    background-size: 120%; /* Zoom out effect (image appears to zoom away) */
-  }
+
+  
 #product3{
     width: 300px;
     height: 300px;
@@ -297,22 +294,23 @@
     background-position: center;
     transition: background-size .25s ease; /* Smooth transition for zoom-out effect */
 }
-
+#product3 .overlay{
+  background-color: rgb(61, 61, 61,0.523);
+  text-align: center;
+  padding: 41% 0;
+  opacity: 0;
+  transition: opacity .25s esae;
+ }
 #product3:hover .overlay {
     opacity: 0.9;
   }
 
-  #product3:hover .overlay {
-    opacity: 0.9;
-  }
+ 
    
   #product3:hover {
     background-size: 120%; /* Zoom out effect (image appears to zoom away) */
   }
   
-  #product3:hover {
-    background-size: 120%; /* Zoom out effect (image appears to zoom away) */
-  }
 #product4{
     width: 300px;
     height: 300px;
@@ -321,18 +319,19 @@
     background-position: center;
     transition: background-size .25s ease; /* Smooth transition for zoom-out effect */
 }
-
-#product4:hover .overlay {
-    opacity: 0.9;
-  }
+#product4 .overlay{
+  background-color: rgb(61, 61, 61,0.523);
+  text-align: center;
+  padding: 41% 0;
+  opacity: 0;
+  transition: opacity .25s esae;
+ }
 
   #product4:hover .overlay {
     opacity: 0.9;
   }
    
-  #product4:hover {
-    background-size: 120%; /* Zoom out effect (image appears to zoom away) */
-  }
+ 
   
   #product4:hover {
     background-size: 120%; /* Zoom out effect (image appears to zoom away) */
@@ -345,18 +344,17 @@
     background-position: center;
     transition: background-size .25s ease; /* Smooth transition for zoom-out effect */
 }
-
+#product5 .overlay{
+  background-color: rgb(61, 61, 61,0.523);
+  text-align: center;
+  padding: 41% 0;
+  opacity: 0;
+  transition: opacity .25s esae;
+ }
 #product5:hover .overlay {
     opacity: 0.9;
   }
 
-  #product5:hover .overlay {
-    opacity: 0.9;
-  }
-   
-  #product5:hover {
-    background-size: 120%; /* Zoom out effect (image appears to zoom away) */
-  }
   
   #product5:hover {
     background-size: 120%; /* Zoom out effect (image appears to zoom away) */
@@ -369,18 +367,17 @@
     background-position: center;
     transition: background-size .25s ease; /* Smooth transition for zoom-out effect */
 }
-
+#product6 .overlay{
+  background-color: rgb(61, 61, 61,0.523);
+  text-align: center;
+  padding: 41% 0;
+  opacity: 0;
+  transition: opacity .25s esae;
+ }
 #product6:hover .overlay {
     opacity: 0.9;
   }
 
-  #product6:hover .overlay {
-    opacity: 0.9;
-  }
-   
-  #product6:hover {
-    background-size: 120%; /* Zoom out effect (image appears to zoom away) */
-  }
   
   #product6:hover {
     background-size: 120%; /* Zoom out effect (image appears to zoom away) */
@@ -393,19 +390,17 @@
     background-position: center;
     transition: background-size .25s ease; /* Smooth transition for zoom-out effect */
 }
-
+#product7 .overlay{
+  background-color: rgb(61, 61, 61,0.523);
+  text-align: center;
+  padding: 41% 0;
+  opacity: 0;
+  transition: opacity .25s esae;
+ }
 #product7:hover .overlay {
     opacity: 0.9;
   }
 
-  #product7:hover .overlay {
-    opacity: 0.9;
-  }
-   
-  #product7:hover {
-    background-size: 110%; /* Zoom out effect (image appears to zoom away) */
-  }
-  
   #product7:hover {
     background-size: 120%; /* Zoom out effect (image appears to zoom away) */
   }
@@ -418,18 +413,17 @@
     transition: background-size .25s ease; /* Smooth transition for zoom-out effect */
 }
 
-
+#product8 .overlay{
+  background-color: rgb(61, 61, 61,0.523);
+  text-align: center;
+  padding: 41% 0;
+  opacity: 0;
+  transition: opacity .25s esae;
+ }
 #product8:hover .overlay {
     opacity: 0.9;
   }
 
-  #product8:hover .overlay {
-    opacity: 0.9;
-  }
-   
-  #product8:hover {
-    background-size: 105%; /* Zoom out effect (image appears to zoom away) */
-  }
   
   #product8:hover {
     background-size: 105%; /* Zoom out effect (image appears to zoom away) */
